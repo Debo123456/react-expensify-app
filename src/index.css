@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700");
+body {
+  font-family: 'Catamaran', sans-serif;
+}
+
+.is-active {
+  font-weight: bold;
+}
