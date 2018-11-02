@@ -17,8 +17,6 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "start": "node server/server.js",
-    "heroku-postbuild": "npm build",
     "serve": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
