@@ -9,7 +9,6 @@ gulpfile.js
 
 # production
 /public
-/server
 
 # misc
 .DS_Store
