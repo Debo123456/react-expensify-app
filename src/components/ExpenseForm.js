@@ -27,7 +27,6 @@ class ExpenseForm extends Component {
     }
 
     onChangeHandler(e) {
-        console.log(this.state);
         const update = {[e.target.name]: e.target.value}
         this.setState(() => {
             return update;

@@ -4,10 +4,10 @@
 /node_modules
 
 # testing
+gulpfile.js
 /coverage
 
 # production
-/build
 /public
 
 # misc
