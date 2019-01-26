@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore';
 import './App.css';
+import './firebase/firebase';
 
 import { addExpense } from './actions/expenses';
 

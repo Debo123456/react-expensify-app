@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
+    "firebase": "^5.5.7",
     "moment": "^2.22.2",
     "numeral": "^2.0.6",
     "react": "^16.4.2",
@@ -14,14 +19,17 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0",
     "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "node server/server.js",
     "serve": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "cross-env NODE_ENV=test react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "jest": "jest"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
